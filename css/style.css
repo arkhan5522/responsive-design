@@ -41,7 +41,7 @@ div{
   margin: 5px;
   padding: 2px;
 }
-@media screen and (width: 772px)
+@media screen and (min-width: 772px)
 {
 div img{
     width:150px;
@@ -51,14 +51,14 @@ div img{
 }
 
 div{
-  display:block;
+  display:inline-block;
   width: 45vw;
   margin: 5px;
   padding: 2px;
 }}
-@media screen and (width:720px){
+@media screen and (min-width:998px){
 div{
-  display: block;
+  display: inline-block;
   width: 30vw;
   margin: 5px;
   padding: 2px;
